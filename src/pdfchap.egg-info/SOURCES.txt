@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/pdfchap/__init__.py
+src/pdfchap/cli.py
+src/pdfchap.egg-info/PKG-INFO
+src/pdfchap.egg-info/SOURCES.txt
+src/pdfchap.egg-info/dependency_links.txt
+src/pdfchap.egg-info/entry_points.txt
+src/pdfchap.egg-info/requires.txt
+src/pdfchap.egg-info/top_level.txt

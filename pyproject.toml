@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdfchap"
+version = "0.1.0"
+description = "Cross-platform CLI tool to extract chapters from PDFs using bookmarks."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pymupdf>=1.26.5",
+    "questionary>=2.1.1",
+]
+
+[project.scripts]
+pdfchap = "pdfchap.cli:main"

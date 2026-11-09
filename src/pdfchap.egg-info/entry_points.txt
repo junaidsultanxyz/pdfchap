@@ -1,0 +1,2 @@
+[console_scripts]
+pdfchap = pdfchap.cli:main
